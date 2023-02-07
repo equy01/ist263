@@ -34,9 +34,19 @@
         -->
         <form action="" method="post">
             <p>This form is going to be for takeour orders.</p>
-            <label for="">Full Name:</label>
+            <label for="fullname">Full Name:</label>
             <input type="text" id="fullname" name>
+            <br>
+            <label for="items">Items:</label><br>
+            <textarea id="items" name="items" rows="3" cols="50"></textarea>
+            <br>
 
+            <input type="radio" id="pickup" name="pickupdelivery" value="pickup">
+            <lable for="pickup">pickup</lable>
+            <input type="radio" id="delivery" name="pickupdelivery" value="delivery">
+            <label for="delivery">delivery</label>
+        <br>
+        <input type="submit" value="place order"
         </form>
         
     </body>
