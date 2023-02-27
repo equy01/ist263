@@ -1,0 +1,8 @@
+ /*p is our selector, color is our property and dark orchid is our value */
+ p{color:darkorchid;
+    /* this is font size by percentage and it is 3x default size font-size: 300%; */
+    font-size: 1.5em; /* 50% bigger than default */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    
