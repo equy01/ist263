@@ -1,0 +1,19 @@
+
+body {
+    background-color: aliceblue;
+}
+
+    h1, h2 {color:#181823}
+    body {color: #04048e}
+    a:link {color:#04048e}
+    a:hover {color:#507de8;}
+    a:visited {color:#04048e;}
+
+    nav { 
+    background-color:#537FE7;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a:link {color:#eeeef3}
+
