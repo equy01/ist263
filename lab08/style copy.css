@@ -1,0 +1,27 @@
+
+body {
+    background-color:#d7d7f6;
+}
+
+    h1, h2 {color:#181823}
+    body {color: #04048e}
+    a:link {color:#04048e}
+    a:hover {color:#507de8;}
+    a:visited {color:#04048e;}
+
+    nav { 
+    background-color:#537FE7;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a:link {color:#eeeef3}
+.quote {float:right;}
+.bio {float:left;margin-right: 10px;}
+
+.part1 {display: flex;}
+.part2 {display: flex;}
+.contact, .linkedin, .maps {margin: 10px;}
+.contact {flex: 2; order: 3; background-color: rgb(209, 248, 248); border-radius: 1em;}
+.linkedin {flex: 1; order: 2; background-color: rgb(209, 248, 248); border-radius: 1em;}
+.maps {flex: 1; order: 1; background-color: rgb(209, 248, 248); border-radius: 1em;}

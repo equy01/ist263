@@ -17,3 +17,8 @@ body {
 
 nav a:link {color:#eeeef3}
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
